@@ -1,2 +1,17 @@
+* добавьте все файлы в локальное хранилище;
 git add .
+git status
+git commit -m "привет"
+
+* создайте новую ветку и перейдите в неё;
+git branch vetka2
+git checkout vetka2
+
+* в новой ветке создайте папку blog с файлами: index.js, index.html;
+git add .
+git status
+git commit -m "привет"
+
+* загрузите на удаленный репозиторий лишь основную ветку вашего проекта.
+git checkout master
 git status
